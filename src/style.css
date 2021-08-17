@@ -9,6 +9,7 @@ body
 {
     height: 100vh;
     font-family: 'Poppins';
+    background: white;
 }
 
 .webgl
@@ -17,4 +18,13 @@ body
     top: 0;
     left: 0;
     outline: none;
+    z-index: 9999;
+}
+
+video{
+    width: 100%;
+}
+
+a{
+    z-index: 999999999 !important;
 }
