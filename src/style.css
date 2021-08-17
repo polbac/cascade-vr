@@ -25,6 +25,6 @@ video{
     width: 100%;
 }
 
-a{
+a,button{
     z-index: 999999999 !important;
 }
